@@ -1,0 +1,56 @@
+#container, #navbar{
+    height: 300px;
+    width: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.button{
+    min-width: 150px;
+    min-height: 50px;
+    background-color: lightgreen;
+    margin: 20px 20px;
+    border-radius: 10px;
+}
+
+.button1{
+    font-size: x-large;
+    min-width: 250px;
+    min-height: 100px;
+    background-color: rgb(105, 229, 56);
+    margin: 30px 30px;
+    border-radius: 10px;
+}
+
+.typing{
+    width: 670px;
+    animation: type 3s steps(31), blink .7s step-end infinite alternate;
+    border-right: solid 3px;
+    font-family: monospace;
+    font-size: 3em;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+@keyframes type {
+    from{
+        width: 0;
+    }   
+}
+@keyframes blink {
+    50%{
+        border-color: transparent;
+    }
+}
+
+.toggle1{
+    background-color: red;
+    width: 800px;
+}
+
+.toggle2{
+   background-color: aqua;
+   width: 800px;
+   height: 800px;
+}
