@@ -22,7 +22,7 @@ function f1(){
     but3.classList.add('button1');
     but3.textContent= "Make div"
 
-    nav.append(but2, but3)
+    nav.append(but2, but3);
 
 //Gjør to funksjoner inne i hovedfunksjonen til disse knaper 
     but2.onclick= ()=>{
@@ -30,7 +30,7 @@ function f1(){
 
         nav.style.backgroundColor= "#" + Math.floor(Math.random()*16777215).toString(16);
 
-        console.log('ok')
+        console.log('ok');
     }
 
     but3.onclick= ()=>{
